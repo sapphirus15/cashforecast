@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block  page_title %}
+    Home
+{% endblock page_title %}
+
+{% block content %}
+    <h3>cash_list.html [Calendar] <h3>
+    <ul>
+        {% for cash in cashs %}
+        <li>{{ cash.date }}: {{ cash.item }}</li>
+        {% endfor %}
+        
+    </ul>
+    <h3>[Chart]<h3>
+{% endblock content %}
+

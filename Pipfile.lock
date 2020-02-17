@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f0dfc63df52284b87c7e84f8d558d3f466b88aa3b37ab75214b0da64e8202657"
+            "sha256": "e873cfedaa48e0965e62be1da940a68a1ebfec6aa128f23096c7b37ebda0d315"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -44,6 +44,14 @@
             ],
             "index": "pypi",
             "version": "==3.0.3"
+        },
+        "django-admin-rangefilter": {
+            "hashes": [
+                "sha256:088cde1ec1d81ab6053b939d7ef5cb4a3991f295b558422e763d4760b96b21e3",
+                "sha256:f2b77568b57e65c14d76aa3fae7e5d0a9caa93335e116c3377d9c1f43d233dbb"
+            ],
+            "index": "pypi",
+            "version": "==0.5.4"
         },
         "idna": {
             "hashes": [
@@ -267,6 +275,7 @@
                 "sha256:fc0fea399acb12edbf8a628ba8d2312f583bdbdb3335635db062fa98cf71fca4",
                 "sha256:fe460b922ec15dd205595c9b5b99e2f056fd98ae8f9f56b888e7a17dc2b757e7"
             ],
+            "markers": "implementation_name == 'cpython' and python_version < '3.8'",
             "version": "==1.4.1"
         },
         "wrapt": {
